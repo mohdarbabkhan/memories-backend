@@ -11,7 +11,7 @@ const app = express();
 
 
 const corsOpts = {
-    origin: 'https://memories-backend-uwtg.onrender.com',
+    origin: 'https://memories-arbab.onrender.com/',
     credentials: true,
     methods: ['GET','POST','HEAD','PUT','PATCH','DELETE'],
     allowedHeaders: ['Content-Type'],
