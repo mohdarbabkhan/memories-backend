@@ -11,7 +11,7 @@ const app = express();
 
 
 const corsOpts = {
-    origin: 'http://localhost:3000',
+    origin: 'https://memories-backend-uwtg.onrender.com',
     credentials: true,
     methods: ['GET','POST','HEAD','PUT','PATCH','DELETE'],
     allowedHeaders: ['Content-Type'],
